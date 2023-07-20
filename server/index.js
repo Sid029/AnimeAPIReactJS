@@ -5,7 +5,7 @@ const mysql = require("mysql");
 const db = mysql.createPool({
     host: "localhost",
     user: "root",
-    password: "password",
+    password: "",
     database: "cruddatabase"
 })
 app.use(express.json());
